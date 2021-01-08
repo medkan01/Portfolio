@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../Common to All Page/commonToAllPage.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 800px)" href="../../Common to All Page/commonToAllPageMobile.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../../Common to All Page/commonParallaxEffect.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 831px) and (max-width: 1400px)" href="../../Common to All Page/commonParallaxEffectLaptop.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 501px) and (max-width: 830px)" href="../../Common to All Page/commonParallaxEffectTablet.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="../../Common to All Page/commonParallaxEffectMobile.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../Project Style/project.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 831px) and (max-width: 1400px)" href="../Project Style/projectLaptop.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 501px) and (max-width: 830px)" href="../Project Style/projectTablet.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="../Project Style/projectMobile.css"/>
+</head>
+
+<body>
+
+<header>
+    <div class="navBar">
+        <a href="../../Portfolio/Portfolio.html" class="retour">Retour</a>
+        <input type="checkbox" id="navCheck">
+        <div class="navButton">
+            <label for="navCheck">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            </label>
+        </div>
+        
+        <div class="navLinks">
+            <a href="../../index.html" class="compNavBar">Accueil</a>
+            <a href="../../CV/CV.html" class="compNavBar">Curriculum Vit&aelig;</a>
+            <a href="../../Portfolio/Portfolio.html" class="compNavBar activeNavLink">Porfolio</a>
+            <a href="../../Useful Link/usefulLinks.html" class="compNavBar">Liens Utiles</a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<div class="containerPara">
+    <div class="parallax"></div>
+    <div class="wholeContainer">
+        <button class="carouselNavBtn previous" id="previous">
+            &#139;
+        </button>
+
+        <div class="carouselContainer">
+            <div class="carouselWrapper">
+                <div class="carouselSlide" id="slide1">
+
+                    <h1>Projet Java: Vidéothèque</h1>
+                    <p>
+                        Logiciel de gestion d’une vidéothèque. L’employé qui est amené à manipuler ce logiciel pourra ajouter, supprimer, ou modifier des clients ou des produits. Les clients peuvent être considéré comme Fidèles ou Occasionnels. Ces clients et ces produits sont stockés dans une base de données. Les produits sont divisés en plusieurs parties et sous parties.
+                    </p>
+
+                </div>
+                <div class="carouselSlide" id="slide1">
+
+                    <h1>Objectif du projet</h1>
+                    <p>
+                        Modélisation complète d'un problème avec UML et sa mise en œuvre en Java.
+                    </p>
+                    <br>
+                    <h1>Compétences vissées</h1>
+                    <p>
+                        Programmation par objet, UML, Langage Java (classe, héritage, gestion d'une interface graphique complète et gestion des événements graphiques, etc.)
+                    </p>
+
+                </div>
+                <div class="carouselSlide" id="slide2">
+
+                    <h1>Compétences</h1>
+                    <div class="imageContainer">
+                        <img src="../Image/java.png" alt="">
+                        <img src="../Image/uml.png" alt="">
+                        <img src="../Image/MySQL.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <button class="carouselNavBtn next" id="next">
+            &#155;
+        </button>
+        <div class="upDownBtnContainer">
+            <button class="upDownBtn" id="up">
+                &#x25B2;
+            </button>
+            <button class="upDownBtn" id="down">
+                &#x25BC;
+            </button>
+        </div>
+    </div>
+</div>
+
+</main>
+
+<script type="text/javascript" src="../../Common to All Page/commonParallaxEffect.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.pres1 {
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+main {
+    height: 92vh;
+    padding: 40px 40px;
+    display: flex;
+    align-items: stretch;
+}
+.photoPerso {
+    width: 290px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #CC9929;
+    margin-right: 70px;
+}
+.name {
+    font-size: 70px;
+    line-height: 1;
+}
+.name > span {
+    font-size: 50px;
+}
+.content {
+    text-align: justify;
+    font-size: 22px;
+    overflow: auto;
+    padding-right: 10px;
+}
+.presentation {
+    background-color:#3b3b3b;
+    border-radius: 20px;
+    padding: 60px;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content::-webkit-scrollbar {
+    width: 4px;
+    height: 0px;
+}
+.content::-webkit-scrollbar-track {
+    border: 7px solid transparent;
+}
+.content::-webkit-scrollbar-thumb {
+    background:  rgb(156, 156, 156);
+    border-radius: 3px;
+}

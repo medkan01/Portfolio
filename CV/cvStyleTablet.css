@@ -1,0 +1,64 @@
+/* General Properties */
+    .blocContainer {
+        transition: transform 0.2s linear;
+    }
+    .carouselSlide > h1 {
+        margin: 40px 0;
+        font-size: 46px;
+    }
+    .skills {
+        margin-right: 0px;
+    }
+    hr {
+        display: block;
+        margin-bottom: 10px;
+        opacity: 0.5;
+    }
+/* Fist and second Slide Content */
+    .education {
+        display: block;
+        width: 100%;
+    }
+    .instit {
+        margin-bottom: 50px;
+    }
+    .experience {
+        display: block;
+        width: 100%;
+    }
+/* Third Slide content */
+    .firstBlocLine {
+        margin: 10px 0;
+    }
+    .bullet {
+        margin-right: 10px;
+        width: 14px;
+        height: 14px;
+    }
+/* Fourth slide content */
+    .titleColor, .year {
+        font-size: 23px;
+        text-align: right;
+    }
+/* Design and properties of the skills slide */
+    .btnSkills {
+        margin: 10px 20px;
+        display: inline-block;
+    }
+    .overflowSkills {
+        width: 240px;
+        height: auto;
+        overflow-x: hidden;
+    }
+    #btnPrev, #btnNext {
+        width: 60px;
+        height: 60px;
+        font-size: 50px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+
+
+

@@ -1,0 +1,27 @@
+/* General Properties */
+    .carouselSlide > h1 {
+        font-size: 70px;
+    }
+    .skills {
+        margin-right: 40px;
+    }
+/* Fist and second Slide Content */
+    .education {
+        width: 100%;
+    }
+    .experience {
+        width: 100%;
+    }
+/* Third Slide content */
+    .firstBlocLine {
+        margin: 10px 0;
+    } 
+    .bullet {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+    }
+/* Fourth slide content */
+    .titleColor, .year {
+        font-size: 28px;
+    }

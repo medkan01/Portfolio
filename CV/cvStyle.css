@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General Properties */
+    .blocContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .carouselSlide > h1 {
+        margin-bottom: 50px;
+        font-size: 100px;
+        font-weight: 100;
+    }
+    .skills {
+        margin-right: 70px;
+    }
+    hr {
+        display: none;
+    }
+/* Fist and second Slide Content */
+    .education {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 50px;
+        width: 70%;
+    }
+    .instit {
+        color: rgb(235, 228, 213);
+    }
+    .experience {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 50px;
+        width: 80%;
+    }
+/* Third Slide content */
+    .firstBlocLine {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: row;
+    } 
+    .red {
+        background-color: rgb(255, 168, 168);
+    }
+    .yellow {
+        background-color: rgb(238, 238, 139);
+    }
+    .blue {
+        background-color: rgb(157, 157, 255);
+    }
+    .white {
+        background-color: white;
+    }
+    .bullet {
+        margin-right: 10px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+/* Fourth slide content */
+    #slide4 p {
+        margin-bottom: 20px;
+        color: rgb(235, 228, 213);
+    }
+    .titleColor, .year {
+        font-size: 30px;
+        color: white;
+    }
+
+/* Button skills (slider) */
+    .btnSkills {
+        display: none;
+    }

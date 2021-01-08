@@ -1,0 +1,15 @@
+html {  
+    --widthImgAndDivContainer: 450px;
+}
+.carouselItem .carouselContent {
+    width: var(--widthImgAndDivContainer);
+}
+.prevBtn, .nextBtn {
+    font-size: 80px;
+}
+.imgContainer img {
+    width: var(--widthImgAndDivContainer);
+}
+.content {
+    font-size: 25px;
+}

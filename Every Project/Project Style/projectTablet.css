@@ -1,0 +1,26 @@
+h1 {
+    font-size: 35px;
+    margin: 50px 0;
+}
+p {
+    font-size: 19px;
+}
+img {
+    width: 170px;
+    height: auto;
+}
+.FXML {
+    font-size: 50px;
+    width: 250px;
+    height: 200px;
+}
+.navBar {
+    justify-content: space-between;
+} 
+.retour{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color:  #cfc3ad;
+    margin-left: 20px;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+html {
+    --orangeColor: rgb(204, 153, 41);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: rgb(80, 79, 79);
+    color: rgb(216, 207, 191);
+}
+/* Properties of the naviguation Bar */
+    /* Properties of the nav bar / Appearance */
+        .navBar {
+            padding: 0 40px;
+            height: 8vh;
+            width: 100%;
+            font-size: 24px;
+            background-color: #3b3b3b;
+            position : relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    /* Disposition of the links */
+        .navLinks {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    /* Appearance of the Links */
+        .navLinks a {
+            text-decoration: none;
+            color: #cfc3ad;
+            /* Permet de faire une ligne bleu progressive au passage de la souris */
+            background: linear-gradient(to top, var(--orangeColor) 0%, var(--orangeColor) 7%, transparent 10.01%) no-repeat left bottom / 0 100%;
+            transition: background-size 0.4s;
+        }
+        .navLinks > a.activeNavLink {
+            color:  var(--orangeColor);
+        }
+        /* Permet la propagation de la ligne de soulignement au passage de la souris */
+            .compNavBar:hover {
+                background-size: 100% 100%;
+            }
+            .activeNavLink:hover {
+                background-size: 0 0;
+            }
+    /* We don't want the button to appear in the Desktop version of the website  */
+        .navBar > .navButton{
+        display: none;
+        }
+    /* We don't want the checkbox to appear in the Desktop version of the website */
+        .navBar > #navCheck{
+        display: none;
+        }

@@ -1,0 +1,44 @@
+.wholeContainer {
+    justify-content: center;
+    height: 100%;
+}
+.containerPara {
+    height: 93vh;
+}
+.parallax {
+    width: 100%;
+    height: 150%;
+}
+.carouselContainer {
+    width: 88%;
+    height: 100%;
+}
+.carouselWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.carouselSlide {
+    font-size: 20px;            
+    align-items: flex-start;
+    height: 100%;
+}
+.carouselNavBtn {
+    display: none;
+}
+.upDownBtnContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.upDownBtn {
+    width: 70px;
+    height: 35px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}

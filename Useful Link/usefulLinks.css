@@ -1,0 +1,39 @@
+main {
+    display: flex;
+}
+.presentation {
+    margin: 50px auto;
+    background-color:#3b3b3b;
+    border-radius: 20px;
+    padding: 60px;
+    border: 2px solid #D8CFBF;
+}
+a {
+    color: #D8CFBF;
+}
+.cvDownload {
+    text-align: center
+}
+.cvPdf > button {
+    margin-top: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 4px solid #CC9929;
+    color: #CC9929;
+    font-size: 20px;
+    border-radius: 35px;
+    width: 160px;
+    height: 45px;
+    cursor: pointer;
+}
+.cvPdf {
+    text-decoration: none;
+}
+.lien > .icon {
+    width: 30px;
+    margin-right: 15px;
+}
+.lien {
+    display: flex;
+    align-items: center;
+}

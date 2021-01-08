@@ -1,0 +1,16 @@
+html {  
+    --widthImgAndDivContainer: 270px;
+}
+.carouselItem .slide {
+    width: var(--widthImgAndDivContainer);
+}
+.imgContainer img {
+    width: var(--widthImgAndDivContainer);
+}
+.content {
+    font-size: 17px;
+    padding: 10px;
+}
+.prevBtn, .nextBtn {
+    font-size: 60px;
+}

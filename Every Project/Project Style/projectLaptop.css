@@ -1,0 +1,17 @@
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+p {
+    font-size: 24px;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+.FXML {
+    font-size: 70px;
+}
+.retour {
+    display: none;
+}

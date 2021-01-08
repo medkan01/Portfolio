@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {  
+    --widthImgAndDivContainer: 700px;
+    overflow: hidden;
+}
+main {
+    background-image: url('../Common\ to\ All\ Page/par1.png');
+    background-size: cover;
+}
+.carousel {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carouselBody {
+    width: 100%;
+    overflow: hidden;
+}
+.carouselSlider {
+    margin: 45px 0;
+    transition: transform 0.2s ease-in-out; /* translation d'une slide a l'autre */
+    display: flex;
+    align-items: center;
+}
+.carouselItem {
+    perspective: 1200px;
+}
+.carouselItem .carouselContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--widthImgAndDivContainer);
+    height: auto;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+    /*rotatingslideduration*/
+    transform-style: preserve-3d;
+}
+.prevBtn, .nextBtn {
+    font-size: 100px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.prevBtn {
+    margin-right: 20px;
+}
+.nextBtn {
+    margin-left: 20px;
+}
+
+.imgContainer img {
+    width: var(--widthImgAndDivContainer);
+}
+.content {
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    border: 1px white solid;
+    width: 100%;
+    padding: 20px;
+    background-color: #1e272e;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
