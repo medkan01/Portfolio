@@ -1,5 +1,7 @@
 .pres1 {
     display: -webkit-flex;
+    order:1;
+    -webkit-order:1;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -30,6 +32,8 @@ main {
     font-size: 22px;
     overflow: auto;
     padding-right: 10px;
+    order:2;
+    -webkit-order:2;
 }
 .presentation {
     background-color:#3b3b3b;
