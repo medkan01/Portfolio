@@ -1,10 +1,9 @@
 .pres1 {
-    display: -webkit-flex;
-    order:1;
-    -webkit-order:1;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 main {
@@ -30,16 +29,14 @@ main {
 .content {
     text-align: justify;
     font-size: 22px;
-    overflow: auto;
     padding-right: 10px;
-    order:2;
-    -webkit-order:2;
+    overflow-y: auto;
 }
 .presentation {
     background-color:#3b3b3b;
     border-radius: 20px;
     padding: 60px;
-    display: -webkit-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }

@@ -1,5 +1,6 @@
 .pres1 {
     flex-direction: column;
+    display: grid;
 }
 main {
     height: 93vh;
@@ -18,6 +19,7 @@ main {
 }
 .content {
     font-size: 14px;
+
 }
 .presentation {
     border-radius: 10px;
